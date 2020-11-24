@@ -30,7 +30,10 @@ The twelve factors are listed below, and I have re-arranged them in accordance w
 
 
 ### Bibliography
-https://dzone.com/articles/the-twelve-factor-app-what-it-is-and-how-to-monito\
-https://medium.com/hashmapinc/how-i-use-the-twelve-factor-app-methodology-for-building-saas-applications-with-java-scala-4cdb668cc908\
-https://12factor.net/\
+https://dzone.com/articles/the-twelve-factor-app-what-it-is-and-how-to-monito
+
+https://medium.com/hashmapinc/how-i-use-the-twelve-factor-app-methodology-for-building-saas-applications-with-java-scala-4cdb668cc908
+
+https://12factor.net/
+
 https://www.geeksforgeeks.org/what-is-twelve-factor-app/
