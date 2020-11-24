@@ -1,26 +1,36 @@
 # Reading-Task-4 - The Twelve-Factor App
 
-* I. Codebase\
+The twelve factors are listed below, and I have re-arranged them in accordance with my own prioritization.
 
-* II. Dependencies\
+* I. Codebase
 
-* III. Config\
 
-* IV. Backing services\
+* II. Dependencies
 
-* V. Build, release, run\
+* III. Config
 
-* VI. Processes\
+* IV. Backing services
 
-* VII. Port binding\
+* V. Build, release, run
 
-* VIII. Concurrency\
+* VI. Processes
 
-* IX. Disposability\
+* VII. Port binding
 
-* X. Dev/prod parity\
+* VIII. Concurrency
 
-* XI. Logs\
+* IX. Disposability
 
-* XII. Admin processes\
+* X. Dev/prod parity
 
+* XI. Logs
+
+* XII. Admin processes
+
+
+
+### Bibliography
+https://dzone.com/articles/the-twelve-factor-app-what-it-is-and-how-to-monito\
+https://medium.com/hashmapinc/how-i-use-the-twelve-factor-app-methodology-for-building-saas-applications-with-java-scala-4cdb668cc908\
+https://12factor.net/\
+https://www.geeksforgeeks.org/what-is-twelve-factor-app/
