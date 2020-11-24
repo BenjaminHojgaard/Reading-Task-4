@@ -3,7 +3,7 @@
 The twelve factors are listed below, and I have re-arranged them in accordance with my own prioritization.
 Summary of each point can be found at: https://12factor.net/
 
-* I. Codebase
+* I. Codebase\
 Keeping Codebase in the 1st place seems obvious. Keeping the code for the application in a VCS like git is the first step when you start a new project. We can track our code, revert back from new commits/pushes and makes it easier for a dev team to work on the same project.
 
 * II. Dependencies
