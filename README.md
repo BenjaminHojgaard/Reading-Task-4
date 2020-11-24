@@ -1,3 +1,26 @@
-# Reading-Task-4
+# Reading-Task-4 - The Twelve-Factor App
 
-I forgot due date, will update tomorrow(23rd november)!
+* I. Codebase\
+
+* II. Dependencies\
+
+* III. Config\
+
+* IV. Backing services\
+
+* V. Build, release, run\
+
+* VI. Processes\
+
+* VII. Port binding\
+
+* VIII. Concurrency\
+
+* IX. Disposability\
+
+* X. Dev/prod parity\
+
+* XI. Logs\
+
+* XII. Admin processes\
+
