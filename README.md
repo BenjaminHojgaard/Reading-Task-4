@@ -19,13 +19,16 @@ I have moved dev/prod parity up a few ranks because of the unforeseen nature of 
 Can be webservices, databases, message brokers and so on. They are all considered as resources and are loosely coupled. Twelve-Factor advocates that when changing from one service to another, there should be no code changes, only configurations. It is still an important part, which is why I've ranked it 4th.
 
 * V. Build, release, run\
-In the case of Java, we build our project, bundling it with Maven into a JAR in the first step, build. In release we take our build and 
+A Twelve-Factor application should have a clear distinction bewteen build, release, and run. In the case of Java, we build our project, bundling it with Maven into a JAR in the first step, build. In release we take our build, assign it a release number and prepare it for execution on the environment. In run we execute the build.
 
 * VI. Processes\
+We want our application to be stateless. With a stateless application we can start multiple instances of the same app, without worrying about which instance the user is communication with, as we do not want persisted data (session data). If we need to persist some data we should use a database. With statelessness we also achieve higher response times, if we have a lot of traffic as we can load balance between our instances.
 
 * VII. Port binding\
+Our application should be self-contained, and not rely on a running server to get executed.
 
 * VIII. Concurrency\
+An application that follows this principle must be divided into smaller different processes instead of a single large application. Each such process must be able to start, terminate and replicate itself independently and at any time<sup>1</sup>.
 
 * XI. Logs\
 Logs are treated like event streams. This helps us debug our code to see when some of our functionality broke, or didn't get called correctly, which is why I've moved 'Logs' up from second to last place.
